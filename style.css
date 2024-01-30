@@ -1,0 +1,43 @@
+h1 {
+  color: white;
+  background-image: linear-gradient(to left,  rgb(24, 24, 124),rgba(61, 125, 168, 0.637));
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+#search-input {
+  height: 50px;
+  width: 200px;
+}
+
+#search-button {
+  margin-top: 15px;
+  background-color: rgba(61, 125, 168, 0.637);
+  width: 200px;
+  border: none;
+
+}
+
+.container {
+  display: flex;
+}
+
+.box {
+  flex: 1;
+  width: 100px; 
+  height: 200px;
+  margin: 10px; 
+  background-color: rgba(61, 125, 168, 0.637); 
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.cityBtn {
+  width: 200px;
+  background-color: rgba(61, 125, 168, 0.637);
+  margin-top: 10px;
+  border: none;
+}
